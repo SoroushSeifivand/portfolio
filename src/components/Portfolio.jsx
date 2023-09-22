@@ -12,31 +12,37 @@ const Portfolio = () => {
       id: 1,
       src: reactTodo,
       title: "Todo list",
+      github: "https://github.com/SoroushSeifivand/react-todo",
     },
     {
       id: 2,
       src: memeGenerator,
       title: "meme generator",
+      github: "https://github.com/SoroushSeifivand/meme-generator",
     },
     {
       id: 3,
       src: reactCalculator,
       title: "calculator",
+      github: "https://github.com/SoroushSeifivand/js-calculator",
     },
     {
       id: 4,
       src: reactRoboGuys,
       title: "roboguys",
+      github: "https://github.com/SoroushSeifivand/roboguys",
     },
     {
       id: 5,
       src: shoeList,
       title: "shoe list",
+      github: "https://github.com/SoroushSeifivand/shoe-list",
     },
     {
       id: 6,
       src: gradienGenerator,
       title: "gradiant generator",
+      github: "https://github.com/SoroushSeifivand/Gradient-generator",
     },
   ];
 
@@ -53,7 +59,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work</p>
         </div>
         <div className="flex justify-center flex-wrap gap-3 overflow-y-scroll">
-          {portfolios.map(({ id, src, title }) => (
+          {portfolios.map(({ id, src, title, github }) => (
             <div
               key={id}
               style={{ backgroundImage: `url(${src})` }}
@@ -64,12 +70,22 @@ const Portfolio = () => {
                   {title}
                 </div>
                 <div className="buttons flex gap-7 text-cyan-400 ">
-                  <button className="cursor-pointer hover:scale-125 duration-100 uppercase">
+                  {/* <a
+                    href="#"
+                    className="cursor-pointer hover:scale-125 duration-100 uppercase"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     live
-                  </button>{" "}
-                  <button className="cursor-pointer hover:scale-125 duration-100 uppercase">
+                  </a> */}
+                  <a
+                    href={github}
+                    className="cursor-pointer hover:scale-125 duration-100 uppercase"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     code
-                  </button>
+                  </a>
                 </div>
               </div>
               {/* <div className="flex items-center justify-center h-1/2">
