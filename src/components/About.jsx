@@ -13,21 +13,14 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-          harum illo eaque quo consequuntur aut ad placeat officiis, sed omnis
-          accusamus mollitia sint maiores natus ipsam hic sapiente error totam
-          quaerat amet numquam? Odit reprehenderit nulla illum. Corporis nostrum
-          ex aut autem, sapiente ullam commodi alias, recusandae quaerat
-          voluptatum aliquid.
-        </p>
-        <br />
-        <p className=" text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo
-          nobis ut provident explicabo officiis, quasi iusto commodi odit
-          recusandae voluptas vero doloribus saepe ab dicta repudiandae at.
-          Accusamus ipsam aspernatur, unde dolorem recusandae sapiente eligendi
-          doloremque ullam nostrum harum, facilis, suscipit iusto? Nihil
-          sapiente eum cum rem laudantium labore.
+          My name is Soroush Seifivand I am 23 years old. I was born in Ahvaz
+          but currently I'm a student of Computer Science in Islamic Azad
+          University Central Tehran Branch and living in Tehran. I am so
+          interested in web developing and been doing it for a while but in the
+          last couple months I've been practicing consistently. I am looking
+          forward to find a job as an intern in a good and updated company to
+          know how to deal with real in-work projects to start a career as a
+          junior web developer.
         </p>
       </div>
     </div>
